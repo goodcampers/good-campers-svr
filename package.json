@@ -1,0 +1,15 @@
+{
+  "name": "GoodCampers",
+  "version": "1.0.0",
+  "description": "Good Campers 캠핑장 관리기",
+  "dependencies": {
+    "accounting": "^0.3.2",
+    "async": "^0.9.0",
+    "htmlparser": "~1.7.7",
+    "jquery": "~2.1.1",
+    "jsdom": "^0.10.5",
+    "mongoose": "^3.8.12",
+    "nconf": "^0.6.9",
+    "request": "~2.36.0"
+  }
+}

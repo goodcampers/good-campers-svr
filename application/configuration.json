@@ -1,0 +1,36 @@
+{
+	"dir":{
+		"download":{
+			"root":"./downloads"
+			,"campingzone":{
+				"root":"/campingzone"
+			}
+		}
+	}
+	,"request":{
+		"headers":{
+			"User-Agent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36"
+			,"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+			,"Accept-Encoding":"gzip,deflate,sdch"
+			,"Accept-Language":"ko,ar;q=0.8,en;q=0.6"
+			,"Cache-Control":"max-age=0"
+		}
+		,"followAllRedirects":true
+	}
+	,"url":{
+		"login":{
+			"url":"http://www.campingzone.co.kr/HTML/login/login_ok.asp"
+			,"method":"POST"
+			,"form":{
+					"returnur":"/HTML/index.asp"
+					,"userid":"korean44"
+					,"pass":"keiichi"
+					,"x":37
+					,"y":11
+				}
+			,"headers":{
+				"additional":"headervalue"
+			}
+		}
+	}
+}
